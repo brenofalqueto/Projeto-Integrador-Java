@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package projetointegrador;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author breno
+ */
+public class ProjetoIntegrador {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Digite o seu nome: ");
+        String nome = teclado.nextLine();
+        System.out.print("Digite a primeira nota: ");
+        Float nota1 = teclado.nextFloat();
+        System.out.print("Digite a segunda nota: ");
+        Float nota2 = teclado.nextFloat();
+        System.out.print("Digite a terceira nota: ");
+        Float nota3 = teclado.nextFloat();
+        
+        
+        
+        
+        
+    }
+    
+}
